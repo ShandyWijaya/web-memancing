@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishing Activities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        background-image: url('https://st.depositphotos.com/27201292/52490/i/450/depositphotos_524909280-stock-photo-scenic-view-sunset-coast-baltic.jpg'); /* Ganti dengan path gambar Anda */
+        background-size: cover; /* Menyesuaikan gambar agar memenuhi layar */
+        background-position: center; /* Memposisikan gambar di tengah */
+    }
+    .header {
+        background-color: transparent;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        background: #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+    .container {
+        text-align: center;
+        margin: 20px auto;
+        max-width: 800px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            background: white;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .review {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        .review-item {
+        display: flex; /* Agar avatar dan konten berada dalam satu baris */
+        align-items: center; /* Menyelaraskan secara vertikal */
+        margin-bottom: 15px;
+    }
+
+    .review-item .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid #ccc;
+        margin-right: 15px; /* Memberikan jarak antara avatar dan konten */
+    }
+
+    .review-item .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .review-item .review-content {
+        display: flex;
+        flex-direction: column; /* Agar elemen dalam review-content vertikal */
+        align-items: flex-start; /* Menyelaraskan konten ke kiri */
+    }
+
+    .review-item .username {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 5px; /* Memberikan jarak antara username dan rating */
+    }
+
+    .review-item .rating {
+        margin-top: 5px; /* Memberikan jarak antara komentar dan rating */
+    }
+</style>
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://png.pngtree.com/png-clipart/20230916/original/pngtree-an-old-school-fishing-logo-clipart-vector-png-image_12255908.png" alt="User Avatar" width="50" height="50" style="border-radius: 50%; object-fit: cover;">
+
+        
+        <div class="nav">
+            <a href="#">Fishing Activities</a>
+            <a href="#">About Us</a>
+            <a href="#">Fishingpedia</a>
+            <a href="#">Event</a>
+            <a href="#">Fishing Web Point</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2>What Do You Want To Do?</h2>
+        <div class="buttons">
+            <button>Fishing Trending</button>
+            <button>Fishing Equipment</button>
+            <button>Fishing Location</button>
+        </div>
+        <div class="review">
+            <h3>Review</h3>
+        
+            <div class="review-item">
+                <div class="avatar">
+                    <img src="https://i.pinimg.com/736x/06/4e/f6/064ef61d5fbc37a5a7fab32ae7e76eec.jpg" alt="User Avatar">
+                </div>
+                <div class="review-content">
+                    <h4 class="username">Mr. Ambatukam</h4>
+                    <h6>Mantap banget semoga web ini lebih dikembangkan lagi seperti ditambahkan fitur-fitur baru.</h6>
+                    <div class="rating">★★★★★</div>
+                </div>
+            </div>
+        
+            <div class="review-item">
+                <div class="avatar">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBz4R2puzW7pCv0SEMfk5yUaEe3GRSF2Ia-g&s" alt="User Avatar">
+                </div>
+                <div class="review-content">
+                    <h4 class="username">Phil Foden</h4>
+                    <h6>Gegara ni website gwa jadi tahu spot mancing gacor, lihat aja profil gwa dapet ikan segede bantal woylah.</h6>
+                    <div class="rating">★★★★★</div>
+                </div>
+            </div>
+        
+            <div class="review-item">
+                <div class="avatar">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHJCPozi6NOe1gkX4RgkBIqLyTUolDXsLQoA&s" alt="User Avatar">
+                </div>
+                <div class="review-content">
+                    <h4 class="username">Prilly</h4>
+                    <h6>Tambahin spot-spot mancing gacor lagi dong, aku ingin nelusuri beberapa spot mancing yg belum aku ketahui.</h6>
+                    <div class="rating">★★★★★</div>
+                </div>
+            </div>
+        </div>
+        
